@@ -314,6 +314,7 @@ Node.js Architecture
     55. How do you optimize GraphQL queries?
     56. What is GraphQL federation?
     57. GraphQL vs REST trade-offs
+    111. How do you mentor junior dev
 
 6️⃣ React (Senior Topics)
     58. What is React reconciliation?
@@ -387,6 +388,7 @@ Large Scale Systems
     108. Design Twitter timeline
     109. Design Netflix streaming
     110. Design distributed logging system
+    111. How do you mentor junior dev
 
 1️⃣2️⃣ Leadership (Senior Engineers)
     111. How do you mentor junior developers?
