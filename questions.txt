@@ -1,0 +1,401 @@
+
+🧠 100 Interview Questions — Senior Level (8–10 Years)
+Architecture & System Thinking
+    1. How do you design a scalable backend architecture?
+    2. Monolith vs microservices — when should you choose each?
+    3. How would you migrate a monolith to microservices?
+    4. What are trade-offs in microservices architecture?
+    5. What is domain-driven design (DDD)?
+    6. What is bounded context in DDD?
+    7. How do you design a modular architecture?
+    8. How do you manage technical debt in large systems?
+    9. What is clean architecture?
+    10. What is hexagonal architecture?
+
+Platform Engineering
+    11. What is platform engineering?
+    12. How do you design a shared backend platform?
+    13. What is a monorepo vs polyrepo?
+    14. What are the benefits of Nx monorepo architecture?
+    15. How do you design shared libraries in large projects?
+    16. How do you manage dependency conflicts in monorepos?
+    17. How do you enforce coding standards across teams?
+    18. How do you design internal developer platforms?
+    19. What is developer experience (DX)?
+    20. How do you improve developer productivity?
+
+Scaling Systems
+    21. How do you design a system for 1 million users?
+    22. How do you handle 1M requests per second?
+    23. How do you design high availability systems?
+    24. What is fault tolerance?
+    25. What is graceful degradation?
+    26. What is load balancing?
+    27. What is horizontal scaling?
+    28. What is vertical scaling?
+    29. What is auto scaling?
+    30. What is global CDN architecture?
+
+Backend System Design
+    31. How would you design a payment processing system?
+    32. How do you ensure idempotency in payments?
+    33. How do you handle payment retries?
+    34. How do you handle webhooks from third-party providers?
+    35. How do you design a subscription billing system?
+    36. How do you design API gateway architecture?
+    37. How do you design background job processing systems?
+    38. How do you design real-time notification systems?
+    39. How do you design file upload services?
+    40. How do you design search systems?
+
+Distributed Systems (Senior)
+    41. What is consensus algorithm?
+    42. What is Raft algorithm?
+    43. What is Paxos algorithm?
+    44. What is distributed coordination?
+    45. What is leader election in distributed systems?
+    46. What is distributed caching?
+    47. What is consistent hashing?
+    48. What is data partitioning strategy?
+    49. What is multi-region replication?
+    50. What is event-driven microservices architecture?
+
+Reliability & Resilience
+    51. What is circuit breaker pattern?
+    52. What is retry with exponential backoff?
+    53. What is bulkhead isolation pattern?
+    54. What is fallback mechanism?
+    55. What is chaos engineering?
+    56. How do you handle partial failures in distributed systems?
+    57. What is service health checking?
+    58. What is graceful shutdown?
+    59. What is backpressure in distributed systems?
+    60. What is rate limiting architecture?
+
+Observability & Monitoring
+    61. What is observability stack?
+    62. What are logs, metrics, and traces?
+    63. What is distributed tracing?
+    64. What is OpenTelemetry?
+    65. What is application performance monitoring (APM)?
+    66. What is Datadog / Prometheus monitoring?
+    67. What is alert fatigue?
+    68. How do you design production monitoring systems?
+    69. What is log aggregation?
+    70. What is SLO / SLA / SLI?
+
+Cloud Architecture (AWS)
+    71. How do you design serverless architectures?
+    72. How do you handle Lambda cold start problems?
+    73. What is multi-account AWS architecture?
+    74. What is AWS VPC design?
+    75. What is private vs public subnet?
+    76. What is AWS IAM best practice?
+    77. How do you design highly available cloud systems?
+    78. What is cloud cost optimization?
+    79. What is multi-region failover?
+    80. What is edge computing architecture?
+
+Security Architecture
+    81. What is OAuth 2.0 flow?
+    82. What is OpenID Connect?
+    83. What is zero trust architecture?
+    84. What is API security strategy?
+    85. What is token based authentication?
+    86. What is secret management?
+    87. What is secure service-to-service communication?
+    88. What is mutual TLS?
+    89. What is rate limiting for security?
+    90. What is DDOS protection architecture?
+
+Leadership & Engineering Management
+    91. How do you mentor junior engineers?
+    92. How do you perform effective code reviews?
+    93. How do you handle technical disagreements in teams?
+    94. How do you estimate engineering tasks?
+    95. How do you prioritize technical vs product work?
+    96. How do you manage large engineering projects?
+    97. How do you handle production outages?
+    98. How do you design engineering processes?
+    99. How do you improve team productivity?
+    100. How do you drive technical strategy in a company?
+    
+🧠 Final 100 — System Design Interview Questions
+Core System Design Problems
+    1. Design a URL shortener (like Bitly)
+    2. Design a pastebin service
+    3. Design a file storage system (like Google Drive)
+    4. Design a video streaming platform (like YouTube)
+    5. Design a music streaming service (like Spotify)
+    6. Design a ride sharing system (like Uber)
+    7. Design a food delivery system (like Swiggy)
+    8. Design a social network (like Facebook)
+    9. Design a photo sharing platform (like Instagram)
+    10. Design a microblogging platform (like Twitter)
+
+Messaging & Real-Time Systems
+    11. Design a real-time chat system (like WhatsApp)
+    12. Design a live notification system
+    13. Design a websocket messaging service
+    14. Design a real-time collaborative editor (Google Docs)
+    15. Design a presence system (online/offline status)
+    16. Design a live comments system
+    17. Design a push notification service
+    18. Design a real-time stock price dashboard
+    19. Design a multiplayer game backend
+    20. Design a live video chat platform
+
+Backend Infrastructure Systems
+    21. Design an API gateway
+    22. Design a rate limiting system
+    23. Design a distributed logging system
+    24. Design a distributed caching system
+    25. Design a task scheduling system (cron service)
+    26. Design a background job queue
+    27. Design a email sending service
+    28. Design a SMS gateway system
+    29. Design a webhook delivery system
+    30. Design a feature flag system
+
+Search Systems
+    31. Design a search engine (like Google search)
+    32. Design a product search system (like Amazon search)
+    33. Design an autocomplete search system
+    34. Design a log search system (like Kibana)
+    35. Design a document indexing system
+    36. Design a recommendation engine
+    37. Design a news feed ranking system
+    38. Design a content discovery system
+    39. Design a video recommendation system
+    40. Design a personalized feed algorithm
+
+E-Commerce Systems
+    41. Design an e-commerce platform (like Amazon)
+    42. Design a shopping cart system
+    43. Design an inventory management system
+    44. Design an order management system
+    45. Design a payment processing system
+    46. Design a subscription billing platform
+    47. Design a refund processing system
+    48. Design a coupon / discount system
+    49. Design a product review system
+    50. Design a product recommendation system
+
+Large Scale Data Systems
+    51. Design a log analytics platform
+    52. Design a metrics collection system
+    53. Design a distributed monitoring system
+    54. Design a real-time analytics platform
+    55. Design a data pipeline system
+    56. Design a stream processing system
+    57. Design a data warehouse architecture
+    58. Design a ETL pipeline
+    59. Design a event ingestion platform
+    60. Design a big data processing system
+
+Security Systems
+    61. Design an authentication system
+    62. Design an OAuth authentication service
+    63. Design a JWT based auth system
+    64. Design a SSO system
+    65. Design a role-based access control system
+    66. Design a API security gateway
+    67. Design a secret management system
+    68. Design a password reset system
+    69. Design a fraud detection system
+    70. Design a DDOS protection system
+
+Platform Engineering Systems
+    71. Design a CI/CD pipeline system
+    72. Design a build system for monorepos
+    73. Design a deployment platform
+    74. Design a container orchestration platform
+    75. Design a observability platform
+    76. Design a internal developer platform
+    77. Design a cloud resource provisioning system
+    78. Design a multi-tenant SaaS architecture
+    79. Design a feature rollout system
+    80. Design a service discovery platform
+
+Advanced Distributed System Problems
+    81. Design a global distributed cache
+    82. Design a multi-region database system
+    83. Design a geo-distributed application
+    84. Design a consistent hashing based cache
+    85. Design a distributed lock service
+    86. Design a leader election system
+    87. Design a distributed queue system
+    88. Design a fault tolerant microservice platform
+    89. Design a high throughput event streaming platform
+    90. Design a global CDN system
+
+Real Company Interview Problems
+    91. Design Netflix streaming architecture
+    92. Design Google Docs collaboration system
+    93. Design Dropbox sync architecture
+    94. Design Uber driver matching system
+    95. Design Facebook news feed
+    96. Design Twitter timeline service
+    97. Design YouTube upload pipeline
+    98. Design Airbnb booking system
+    99. Design Slack messaging architecture
+    100. Design Zoom video conferencing system
+🧠 Top 120 Questions That Almost Guarantee Cracking Senior Interviews
+
+1️⃣ JavaScript (Core Concepts)
+    1. What is the JavaScript execution context?
+    2. How does the event loop work?
+    3. What is the call stack?
+    4. What are microtasks vs macrotasks?
+    5. What is closure?
+    6. What is the prototype chain?
+    7. What is this binding in JavaScript?
+    8. call vs apply vs bind
+    9. What is currying?
+    10. What is event delegation?
+
+JavaScript Performance
+    11. What is debounce vs throttle?
+    12. What causes memory leaks in JavaScript?
+    13. How does garbage collection work?
+    14. What is WeakMap vs Map?
+    15. What are generators and iterators?
+
+2️⃣ TypeScript (Very Important)
+    16. Why use TypeScript in large applications?
+    17. Difference between type vs interface
+    18. What are generics?
+    19. What are utility types?
+    20. What are mapped types?
+    21. What are type guards?
+    22. What are decorators?
+    23. What is dependency injection in TypeScript?
+    24. What is strict mode in TypeScript?
+    25. How does TypeScript improve maintainability?
+
+3️⃣ Node.js Internals
+    26. How does the Node.js event loop work?
+    27. What is libuv?
+    28. What is non-blocking I/O?
+    29. What are worker threads?
+    30. What is the cluster module?
+
+Node.js Performance
+    31. How do you handle 10k concurrent requests?
+    32. How do you handle CPU intensive tasks in Node.js?
+    33. What are streams in Node.js?
+    34. What is backpressure in streams?
+    35. How do you debug memory leaks in Node?
+
+Node.js Architecture
+    36. How do you structure large Node.js applications?
+    37. What is clean architecture in backend?
+    38. What is dependency injection in Node?
+    39. How do you implement middleware architecture?
+    40. How do you design scalable APIs?
+
+4️⃣ API Design
+    41. What is REST API architecture?
+    42. What is idempotent API design?
+    43. What is API versioning?
+    44. What is pagination strategy?
+    45. Offset vs cursor pagination
+    46. What is API rate limiting?
+    47. Token bucket vs leaky bucket
+    48. What is API gateway?
+    49. REST vs GraphQL
+    50. What is HATEOAS?
+
+5️⃣ GraphQL (Important)
+    51. What is GraphQL schema?
+    52. What are resolvers?
+    53. What is the N+1 problem?
+    54. What is DataLoader?
+    55. How do you optimize GraphQL queries?
+    56. What is GraphQL federation?
+    57. GraphQL vs REST trade-offs
+
+6️⃣ React (Senior Topics)
+    58. What is React reconciliation?
+    59. What is React Fiber architecture?
+    60. How does Virtual DOM work?
+    61. What are controlled vs uncontrolled components?
+    62. What are React portals?
+
+React Performance
+    63. What causes unnecessary re-renders?
+    64. React.memo vs useMemo vs useCallback
+    65. When should you not use useEffect?
+    66. What are custom hooks?
+    67. What is React Suspense?
+
+7️⃣ Next.js
+    68. SSR vs CSR vs SSG
+    69. What is Incremental Static Regeneration?
+    70. What are Server Components?
+    71. What is Next.js middleware?
+    72. What is Edge runtime?
+
+8️⃣ Databases (PostgreSQL)
+    73. What are database indexes?
+    74. How do indexes improve performance?
+    75. What is query optimization?
+    76. What is EXPLAIN ANALYZE?
+    77. What are database transactions?
+
+Database Architecture
+    78. What are ACID properties?
+    79. What are isolation levels?
+    80. What is database replication?
+    81. What is database sharding?
+    82. What is partitioning?
+
+9️⃣ Redis / Caching
+    83. What is Redis?
+    84. What are Redis data structures?
+    85. What is cache aside pattern?
+    86. What is write-through caching?
+    87. What is write-back caching?
+    88. What is cache invalidation?
+    89. What is distributed caching?
+    90. What is Redis clustering?
+
+🔟 AWS / Cloud
+    91. What is AWS Lambda?
+    92. What is API Gateway?
+    93. What is AWS Cognito?
+    94. What is AWS S3?
+    95. What is SNS vs SQS?
+
+Cloud Architecture
+    96. What is serverless architecture?
+    97. What is Lambda cold start problem?
+    98. What is auto scaling?
+    99. What is multi-region deployment?
+    100. What is infrastructure as code?
+
+1️⃣1️⃣ System Design (Most Important)
+    101. Design URL shortener
+    102. Design real-time chat system
+    103. Design notification system
+    104. Design API gateway
+    105. Design rate limiter
+
+Large Scale Systems
+    106. Design YouTube
+    107. Design Uber
+    108. Design Twitter timeline
+    109. Design Netflix streaming
+    110. Design distributed logging system
+
+1️⃣2️⃣ Leadership (Senior Engineers)
+    111. How do you mentor junior developers?
+    112. How do you perform effective code reviews?
+    113. How do you resolve technical disagreements?
+    114. How do you estimate engineering tasks?
+    115. How do you handle production outages?
+    116. How do you reduce technical debt?
+    117. How do you design coding standards?
+    118. How do you scale engineering teams?
+    119. How do you improve developer productivity?
+    120. How do you drive architectural decisions?
